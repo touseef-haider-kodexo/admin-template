@@ -1,0 +1,15 @@
+<svg id="Icons_Basic_Arrow_Down_1" data-name="Icons / Basic / Arrow Down 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Arrow" d="M3.054,4.553a.726.726,0,0,0,1.091,0L6.962,1.5A.887.887,0,0,0,6.417,0H.783A.887.887,0,0,0,.238,1.5Z" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_105" data-name="Group 105" transform="translate(4.4 5.6)">
+    <path id="Arrow-2" data-name="Arrow" d="M3.054,4.553a.726.726,0,0,0,1.091,0L6.962,1.5A.887.887,0,0,0,6.417,0H.783A.887.887,0,0,0,.238,1.5Z" fill="none"/>
+    <g id="Mask_Group_394" data-name="Mask Group 394" clip-path="url(#clip-path)">
+      <g id="Color" transform="translate(-4.4 -5.6)">
+        <rect id="Rectangle" width="16" height="16" fill="#3f434a"/>
+      </g>
+    </g>
+  </g>
+</svg>

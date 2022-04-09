@@ -1,0 +1,28 @@
+<svg id="Prev" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34" height="34" viewBox="0 0 34 34">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="BG" width="34" height="34" rx="10" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Arrow-Right" d="M.176.176a.6.6,0,0,1,.849,0L5.449,4.6,1.024,9.024a.6.6,0,0,1-.849-.848L3.751,4.6.176,1.024A.6.6,0,0,1,.176.176Z" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="BG-2" data-name="BG">
+    <rect id="BG-3" data-name="BG" width="34" height="34" rx="10" fill="none"/>
+    <g id="BG-4" data-name="BG" clip-path="url(#clip-path)">
+      <g id="Color_Accent" data-name="Color / Accent">
+        <rect id="Rectangle" width="34" height="34" fill="black"/>
+      </g>
+    </g>
+  </g>
+  <g id="Icons_Basic_Arrow-Right_2" data-name="Icons / Basic / Arrow-Right 2" transform="translate(25 25) rotate(180)">
+    <g id="Group_104" data-name="Group 104" transform="translate(5.28 3.4)">
+      <path id="Arrow-Right-2" data-name="Arrow-Right" d="M.176.176a.6.6,0,0,1,.849,0L5.449,4.6,1.024,9.024a.6.6,0,0,1-.849-.848L3.751,4.6.176,1.024A.6.6,0,0,1,.176.176Z" fill="none"/>
+      <g id="Mask_Group_393" data-name="Mask Group 393" clip-path="url(#clip-path-2)">
+        <g id="Color" transform="translate(-5.28 -3.4)">
+          <rect id="Rectangle-2" data-name="Rectangle" width="16" height="16" fill="white"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

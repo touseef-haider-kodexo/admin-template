@@ -1,0 +1,13 @@
+<svg id="Group_64" data-name="Group 64" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12.802" height="12.803" viewBox="0 0 12.802 12.803">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Send" d="M8.141,12.8a.6.6,0,0,1-.548-.356L5.367,7.436.356,5.209A.6.6,0,0,1,.4,4.095L11.991.038A.645.645,0,0,1,12.136,0,.546.546,0,0,1,12.2,0h.045A.6.6,0,0,1,12.8.662a.566.566,0,0,1-.035.148L8.707,12.4a.6.6,0,0,1-.541.4Zm2.626-9.919L6.537,7.114l1.539,3.462,2.692-7.692Zm-.848-.85h0L2.227,4.727,5.688,6.266,9.919,2.035Z" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+  </defs>
+  <path id="Send-2" data-name="Send" d="M8.141,12.8a.6.6,0,0,1-.548-.356L5.367,7.436.356,5.209A.6.6,0,0,1,.4,4.095L11.991.038A.645.645,0,0,1,12.136,0,.546.546,0,0,1,12.2,0h.045A.6.6,0,0,1,12.8.662a.566.566,0,0,1-.035.148L8.707,12.4a.6.6,0,0,1-.541.4Zm2.626-9.919L6.537,7.114l1.539,3.462,2.692-7.692Zm-.848-.85h0L2.227,4.727,5.688,6.266,9.919,2.035Z" transform="translate(0 0)" fill="none"/>
+  <g id="Mask_Group_353" data-name="Mask Group 353" clip-path="url(#clip-path)">
+    <g id="Color" transform="translate(-1.6 -1.6)">
+      <rect id="Rectangle" width="16" height="16" fill="#8a9099"/>
+    </g>
+  </g>
+</svg>

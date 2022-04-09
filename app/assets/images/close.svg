@@ -1,0 +1,28 @@
+<svg id="Icons_Basic_Check" data-name="Icons / Basic / Check" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="14" viewBox="0 0 14 14">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="BG" width="14" height="14" rx="7" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Cross" d="M3.961,4.391a.3.3,0,0,0,.43-.43L2.67,2.24,4.391.519a.3.3,0,0,0-.43-.43L2.24,1.81.519.089a.3.3,0,0,0-.43.43L1.81,2.24.089,3.961a.3.3,0,0,0,.43.43L2.24,2.67Z" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="BG-2" data-name="BG">
+    <rect id="BG-3" data-name="BG" width="14" height="14" rx="7" fill="none"/>
+    <g id="BG-4" data-name="BG" clip-path="url(#clip-path)">
+      <g id="Color">
+        <rect id="Rectangle" width="14" height="14" fill="#f8f8f8"/>
+      </g>
+    </g>
+  </g>
+  <g id="Icons_Basic_Cross" data-name="Icons / Basic / Cross" transform="translate(4.2 4.2)">
+    <g id="Group_95" data-name="Group 95" transform="translate(0.56 0.56)">
+      <path id="Cross-2" data-name="Cross" d="M3.961,4.391a.3.3,0,0,0,.43-.43L2.67,2.24,4.391.519a.3.3,0,0,0-.43-.43L2.24,1.81.519.089a.3.3,0,0,0-.43.43L1.81,2.24.089,3.961a.3.3,0,0,0,.43.43L2.24,2.67Z" fill="none"/>
+      <g id="Mask_Group_384" data-name="Mask Group 384" clip-path="url(#clip-path-2)">
+        <g id="Color-2" data-name="Color" transform="translate(-0.56 -0.56)">
+          <rect id="Rectangle-2" data-name="Rectangle" width="5.6" height="5.6" fill="#3f434a"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

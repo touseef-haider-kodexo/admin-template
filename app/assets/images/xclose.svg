@@ -1,0 +1,28 @@
+<svg id="Elements_Close_2" data-name="Elements / Close / #2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="BG" width="20" height="20" rx="7" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Cross" d="M7.073,7.841a.543.543,0,1,0,.768-.768L4.768,4,7.841.927A.543.543,0,0,0,7.073.159L4,3.232.927.159A.543.543,0,0,0,.159.927L3.232,4,.159,7.073a.543.543,0,0,0,.768.768L4,4.768Z" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="BG-2" data-name="BG">
+    <rect id="BG-3" data-name="BG" width="20" height="20" rx="7" fill="none"/>
+    <g id="BG-4" data-name="BG" clip-path="url(#clip-path)">
+      <g id="Color">
+        <rect id="Rectangle" width="20" height="20" fill="#f8f8f8"/>
+      </g>
+    </g>
+  </g>
+  <g id="Icons_Basic_Cross" data-name="Icons / Basic / Cross" transform="translate(5 5)">
+    <g id="Group_95" data-name="Group 95" transform="translate(1 1)">
+      <path id="Cross-2" data-name="Cross" d="M7.073,7.841a.543.543,0,1,0,.768-.768L4.768,4,7.841.927A.543.543,0,0,0,7.073.159L4,3.232.927.159A.543.543,0,0,0,.159.927L3.232,4,.159,7.073a.543.543,0,0,0,.768.768L4,4.768Z" fill="none"/>
+      <g id="Mask_Group_384" data-name="Mask Group 384" clip-path="url(#clip-path-2)">
+        <g id="Color-2" data-name="Color" transform="translate(-1 -1)">
+          <rect id="Rectangle-2" data-name="Rectangle" width="10" height="10" fill="#3f434a"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
