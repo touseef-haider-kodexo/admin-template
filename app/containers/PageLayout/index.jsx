@@ -129,53 +129,8 @@ function PageLayout({ children, gridy, rightHeader, title }) {
               >
                 <img alt="MenuIcon" src={menuIcon} />
               </IconButton>
-              {currentUser?.role === ROLES.tpaAccountManager.value ||
-              currentUser?.role === ROLES.tpaAdmin.value ? (
-                <div className="tpa-logo">
-                  {currentUser?.TPA?.business_logo ? (
-                    <img
-                      alt="TPA"
-                      width={30}
-                      src={`${baseImageURL}${currentUser?.TPA?.business_logo}`}
-                    />
-                  ) : (
-                    <div className="tpa-logo-circle">
-                      {String(currentUser?.TPA?.name).charAt(0)}
-                    </div>
-                  )}
-                  <small className="tpa-powered">powered by VSC CONNECT</small>
-                </div>
-              ) : null}
+
               <div className="rhs flex">
-                <Link to="/add-claim">
-                  <Button
-                    value={
-                      <>
-                        {" "}
-                        <img alt="plus" src={plus} />{" "}
-                        <span className="text-btn">Add Claims</span>
-                      </>
-                    }
-                  />
-                </Link>
-                {notifications?.filter((not) => !not.seen_by.includes(_id))
-                  .length > 0 ? (
-                  <img
-                    style={{ cursor: "pointer" }}
-                    onClick={() => history.push("/notifications")}
-                    alt="bell"
-                    id="bell"
-                    src={bell}
-                  />
-                ) : (
-                  <img
-                    style={{ cursor: "pointer" }}
-                    onClick={() => history.push("/notifications")}
-                    alt="bell"
-                    id="bell"
-                    src={BellWithotRed}
-                  />
-                )}
                 <div className="dropdown ">
                   <button
                     className="trigger flex j-btw fade-btn"

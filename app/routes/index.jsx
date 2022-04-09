@@ -5,8 +5,6 @@ import { useDispatch, useSelector } from "react-redux";
 import PropTypes from "prop-types";
 import PuffLoader from "react-spinners/PuffLoader";
 
-import { ROUTES } from "./constants";
-
 import theme from "@/styles/theme";
 import { getTokens } from "@/utils/auth";
 import { getUserProfile, getMemberProfile } from "@/redux/global/actions";
@@ -15,45 +13,13 @@ import * as LS from "@/hoc/isLoading/styled";
 import IsLoadingHOC from "@/hoc/isLoading/";
 import ErrorPage from "@/components/ErrorPage";
 import storage from "@/utils/storage";
-import {
-  add_claim_info,
-  add_personal_info,
-  add_vehicle_info,
-  add_dents,
-  add_technician_info,
-  set_claim_id,
-  add_saved_dents,
-  add_rating,
-  add_additional_claim_items,
-  set_prev_member_email,
-  set_prev_technician,
-  set_prev_number,
-  set_technician_notes_data,
-  set_emails,
-} from "@/containers/PageClaims/actions";
+
+import { ROUTES } from "./constants";
 
 const AppRoutes = () => {
   const dispatch = useDispatch();
 
   const { pathname } = useLocation();
-
-  // removing claim section when the url is changing
-  useEffect(() => {
-    dispatch(add_personal_info(null));
-    dispatch(add_dents([]));
-    dispatch(add_vehicle_info(null));
-    dispatch(add_technician_info(null));
-    dispatch(add_claim_info(null));
-    dispatch(set_claim_id(null));
-    dispatch(add_saved_dents([]));
-    dispatch(set_emails([]));
-    dispatch(add_additional_claim_items([]));
-    dispatch(add_rating(false));
-    dispatch(set_technician_notes_data(null));
-    dispatch(set_prev_member_email(null));
-    dispatch(set_prev_technician(null));
-    dispatch(set_prev_number(null));
-  }, [pathname]);
 
   const isPwdRecoverPage = matchPath(pathname, {
     path: "/forgot/:token?",

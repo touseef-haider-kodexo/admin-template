@@ -8,7 +8,7 @@ import moment from "moment";
 import clsx from "clsx";
 
 import PageLayout from "../PageLayout";
-import * as D from "../PageSystem/styled";
+// import * as D from "../PageSystem/styled";
 
 import * as S from "./styled";
 
@@ -170,11 +170,11 @@ export default function Notifications() {
 
   return (
     <PageLayout title="Notifications">
-      <D.Users>
-        <S.Notifications>
-          <Card id="card">{renderTable}</Card>
-        </S.Notifications>
-      </D.Users>
+      {/* <D.Users> */}
+      <S.Notifications>
+        <Card id="card">{renderTable}</Card>
+      </S.Notifications>
+      {/* </D.Users> */}
     </PageLayout>
   );
 }

@@ -12,8 +12,6 @@ import { useSelector } from "react-redux";
 
 import Logo from "@/assets/images/logo.webp";
 
-import { ROLES } from "../../utils/constants";
-
 import { ITEMS } from "./constants";
 import * as S from "./styled";
 
@@ -192,28 +190,18 @@ function SideBar() {
 
   const showTabs = useMemo(
     () =>
-      ITEMS.map((item, index) =>
-        Array.isArray(item?.childs) &&
-        item?.childs.length > 0 &&
-        currentUser?.role !== ROLES.tpaAccountManager.value ? (
-          <ItemCollapse
-            // eslint-disable-next-line
-            key={index}
-            {...{ role: currentUser?.role }}
-            {...item}
-            {...location}
-          />
-        ) : (
-          item.roles.includes(currentUser?.role) && (
-            <ItemLink
-              className="links"
+      ITEMS.map(
+        (item, index) =>
+          Array.isArray(item?.childs) &&
+          item?.childs.length > 0 && (
+            <ItemCollapse
               // eslint-disable-next-line
               key={index}
+              {...{ role: currentUser?.role }}
               {...item}
               {...location}
             />
-          )
-        ),
+          ),
       ),
     [currentUser?.role],
   );

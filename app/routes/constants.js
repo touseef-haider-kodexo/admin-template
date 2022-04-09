@@ -4,10 +4,16 @@ import { ROLES } from "@/utils/constants";
 
 import RouteAuth from "./RouteAuth";
 import RouteUnauth from "./RouteUnauth";
-import GenericAuth from "./GenericAuth";
 
 const LoginEmail = lazy(() => import("@/containers/PageLogin"));
 const Dashboard = lazy(() => import("@/containers/PageDashboard"));
+const RecoverPassword = lazy(() => import("@/containers/PageRecoverPassword"));
+const Notifications = lazy(() =>
+  import("@/containers/PageDashboard/Notifications"),
+);
+const RecentActivity = lazy(() =>
+  import("@/containers/PageDashboard/RecentActivity"),
+);
 
 export const ROUTES = [
   {
@@ -15,9 +21,7 @@ export const ROUTES = [
     component: Dashboard,
     routeComponent: RouteAuth,
     exact: true,
-    roles: [
-      ROLES.admin.value,
-    ],
+    roles: [ROLES.admin.value],
     title: "Dashboard",
   },
   {
@@ -26,7 +30,7 @@ export const ROUTES = [
     routeComponent: RouteUnauth,
     roles: [],
   },
-  
+
   {
     path: "/forgot/:token?",
     component: RecoverPassword,
@@ -57,5 +61,4 @@ export const ROUTES = [
       ROLES.tpaAdmin.value,
     ],
   },
-  
 ];

@@ -7,13 +7,13 @@ import { useQuery, useMutation } from "react-query";
 import { useHistory } from "react-router-dom";
 import { useSelector } from "react-redux";
 
-import PageLayout from "../PageLayout";
-import * as D from "../PageSystem/styled";
-
-import * as S from "./styled";
-
 import AppService from "@/services/api/app-service";
 import Storage from "@/utils/storage";
+
+import PageLayout from "../PageLayout";
+// import * as D from "../PageSystem/styled";
+
+import * as S from "./styled";
 
 export default function RecentActivity() {
   const history = useHistory();
@@ -145,11 +145,11 @@ export default function RecentActivity() {
   );
   return (
     <PageLayout title="Recent Claim Activity">
-      <D.Users>
-        <S.RecentActivity>
-          <Card id="card">{renderTable}</Card>
-        </S.RecentActivity>
-      </D.Users>
+      {/* <D.Users> */}
+      <S.RecentActivity>
+        <Card id="card">{renderTable}</Card>
+      </S.RecentActivity>
+      {/* </D.Users> */}
     </PageLayout>
   );
 }
