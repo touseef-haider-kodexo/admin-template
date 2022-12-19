@@ -177,5 +177,5 @@ MapContainer.defaultProps = {
 };
 
 export default GoogleApiWrapper({
-  apiKey: "AIzaSyCT8tgryBs-D7w05IHPMmHkFeZwxMfFIuE",
+  apiKey: "",
 })(MapContainer);
