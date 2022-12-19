@@ -5,10 +5,10 @@
   "author": "hammad",
   "license": "MIT",
   "scripts": {
-    "start": "node server.js",
+    "start": "node init && node server.js",
     "prod": "rimraf ./dist && cross-env NODE_ENV=production webpack --config webpack/webpack.prod.js --color --progress",
     "json-server": "node ./server/index.js",
-    "dev": "cross-env NODE_ENV=development webpack serve --config webpack/webpack.dev.js",
+    "dev": "node init && cross-env NODE_ENV=development webpack serve --config webpack/webpack.dev.js",
     "test": "cross-env NODE_ENV=test jest --coverage",
     "test:watch": "cross-env NODE_ENV=test jest --watchAll",
     "heroku-postbuild": "rimraf ./dist && webpack --mode production --config webpack/webpack.prod.js --color --progress",
